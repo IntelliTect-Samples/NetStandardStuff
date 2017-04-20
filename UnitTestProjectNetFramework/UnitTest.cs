@@ -10,7 +10,7 @@ namespace UnitTestProjectNetFramwork
         public void TestMethod1()
         {
             Assert.AreEqual<string>("StandardLibrary",
-                StandardLibrary.Thing.Method());
+                StandardLibrary.Thing.Method1());
         }
     }
 }

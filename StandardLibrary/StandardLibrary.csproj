@@ -2,6 +2,10 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard1.0</TargetFramework>
-  </PropertyGroup>  
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ClassLibraryNetFramework\ClassLibraryNetFramework.csproj" />
+  </ItemGroup>  
 
 </Project>

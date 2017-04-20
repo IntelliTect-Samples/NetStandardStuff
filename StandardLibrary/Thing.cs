@@ -4,10 +4,17 @@ namespace StandardLibrary
 {
     public class Thing
     {
-        public static string Method()
+        public static string Method1()
         {
             return nameof(StandardLibrary);
         }
+
+        public static string Method2()
+        {
+            return ClassLibraryNetFramework.Thing.Method1();
+        }
+
+
 
 #if Fail
 

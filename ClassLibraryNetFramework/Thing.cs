@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace ClassLibraryNetFramework
 {
-    public class Class1
+    public class Thing
     {
+        public static string Method1()
+        {
+            return nameof(ClassLibraryNetFramework);
+        }
     }
 }
